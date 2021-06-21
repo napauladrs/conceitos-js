@@ -1,0 +1,22 @@
+{
+  "name": "hello-hapi",
+  "version": "1.0.0",
+  "description": "Código para entendimento do hapi",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi",
+    "devtester",
+    "qa"
+  ],
+  "author": "Ana Paula",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.4",
+    "nodemon": "^2.0.7"
+  }
+}
